@@ -11,8 +11,3 @@ if age >= 18:
     print("You are an adult")
 else:
     print("You are a minor")
-
-i = int(input("How many times do you want to repeat? "))
-
-for x in range(i):
-    print("hello world")
