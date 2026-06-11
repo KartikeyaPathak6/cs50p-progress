@@ -6,10 +6,7 @@ def main():
         print("The value is odd")
 
 def isEven(n):
-    if n%2==0:
-        return True
-    else:
-        return False
+    return n%2==0
 
 main()
     
