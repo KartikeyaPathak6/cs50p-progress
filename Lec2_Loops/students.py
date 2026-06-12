@@ -1,9 +1,12 @@
-name=[]
-x=int(input("No. of students: "))
-for i in range(x):
-    name=(input("Name of the student: "))
+def take():
+    names = []
+    x = int(input("No. of students: "))
+    for i in range(x):
+        names.append(input("Name of the student: ")) #used append here which adds names to the list
+    return names
 
-for i in range(len(name)):
-    print(i+1, name[i])
+def give(names):
+    for i in range(len(names)):
+        print(i+1, names[i])
 
-#for the moment this code is not working
+give(take())
