@@ -1,0 +1,11 @@
+Used different functions like:-
+
+1)try - Runs code that might cause an error.
+
+2)Except - Runs if a specific error occurs.
+
+3)pass - just passes the Error/ or ignores it
+
+also conditons like Value Error 
+
+4) Using "else" with try and except :-Runs only if no exception occurred.
