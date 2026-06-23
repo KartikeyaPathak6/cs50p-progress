@@ -1,4 +1,4 @@
-from random import choice
+import random
 
-dice = choice([1,2,3,4,5,6])
+dice =random.randint(1,6)
 print(dice)
