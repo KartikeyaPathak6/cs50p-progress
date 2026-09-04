@@ -18,5 +18,5 @@ def main():
                     print(a-b)
             break
         except ValueError:
-            print("Value was not an integer")
+            print("Value was not an number(1-4)")
 main()
