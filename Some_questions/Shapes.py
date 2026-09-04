@@ -1,6 +1,6 @@
 def main():
     a=int(input("Enter a number: "))
-    b=int(input("Enter another number: \n"))
+    b=int(input("Enter another number:"))
     
     print("1.Add \n2.Multiply\n3.Divided\n4.Subtract\n")
 
